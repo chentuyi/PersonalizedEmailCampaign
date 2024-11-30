@@ -9,10 +9,6 @@ from product_processor import ProductProcessor
 app = Flask(__name__)
 CORS(app)
 
-# Instantiate the LinkedinProcessor with your OpenAI API key
-# os.environ['OPENAI_API_KEY'] = 
-# openai_api_key = os.getenv("OPENAI_API_KEY")
-
 # Load environment variables from .env file
 load_dotenv()
 
