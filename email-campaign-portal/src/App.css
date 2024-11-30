@@ -1,0 +1,165 @@
+/* -------------------- Update CSS here -------------------- */
+
+body {
+  background: #e8e7e7;
+  font-family: arial;
+  /* text-transform: uppercase; */
+}
+
+div {
+  margin-left: 50;
+}
+
+button {
+  outline: none;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Ensure the root container fills the entire viewport */
+.root-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make sure the layout takes full screen height */
+}
+
+/* Main content (Outlet) should take up remaining space */
+.main-content {
+  flex-grow: 1; /* Makes the Outlet expand to occupy available space */
+  overflow: auto; /* Optional: allows scrolling if the content overflows */
+  padding: 20px;
+}
+
+.footer-container {
+  width: 100%;
+}
+
+.footer-dark {
+  padding: 20px;
+  color: #f0f9ff;
+  background-color: #282d32;
+}
+
+.footer-dark h3 {
+  margin-top: 0;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footer-dark ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footer-dark ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .footer-dark .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+  text-align: center;
+}
+
+@media (max-width: 991px) {
+  .footer-dark .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-dark .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #282d32;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+/* Style for Product result */
+.result pre {
+  width: 100%; /* Make the div span the full width of the screen */
+  word-wrap: break-word; /* Break long words to avoid overflow */
+  white-space: pre-wrap; /* Maintain whitespace formatting and wrap long lines */
+  overflow-wrap: break-word; /* Ensure long words break to fit the container */
+  word-break: break-all; /* Break words anywhere if needed to avoid overflow */
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+  max-width: 100%; /* Ensure the div never exceeds the width of the screen */
+  margin-top: 10px;
+}
+
