@@ -22,7 +22,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 linkedin_processor = LinkedinProcessor(api_key=openai_api_key, linkedin="")
 product_processor = ProductProcessor(api_key=openai_api_key, message="")
 
-# API to process job description
+# API to process linkedin
 @app.route('/process_linkedin', methods=['POST'])
 def process_linkedin():
     data = request.json
