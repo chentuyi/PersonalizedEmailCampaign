@@ -22,12 +22,32 @@ class ProductProcessor:
         # Enter personal information, i.e virtual product created by us
         extra_info = [
             {
-                "input": "Tuyi Chen has a background in Computer Science and Mathematics, and she is participating in today's Hackathon Demo.",
+                "input": "Email Campaign is an intelligent service to recommend products to those in need.",
                 "output": "cool"
             },
             {
-                "input": "Email Campaign is an intelligent service to recommend products to those in need.",
+                "input": "Haobing Chu is the mentor of AI Hackathon Team 5. He leads teams at 6sense, building targeted, personalized scalable marketing and sales campaigns for B2B enterprises using ML/AI.",
                 "output": "cool"
+            },
+            {
+                "input": "Tuyi Chen has an academic background in Computer Science and Mathematics. She works on front-end and openai calls of this project.",
+                "output": "cool"
+            },
+            {
+                "input": "Alisa Guo is a third-year software engineering student and she is interested in AI and cybersecurity. She works on Linkedin crawler of this project.",
+                "output": "cool"
+            },
+            {
+                "input": "Cynthia helps with Linkedin crawler of this project.",
+                "output": "good"
+            },
+            {
+                "input": "Sihui He is a fourth-year CS student from Western University. She previously worked at RBC, GM, and AudienceView as software developer intern.",
+                "output": "good"
+            },
+            {
+                "input": "Orsh is a virtual product invented by alien Estra. It is the fuel of alien starship and could be translate into gasoline under certain pressure.",
+                "output": "good"
             }
         ]
 
