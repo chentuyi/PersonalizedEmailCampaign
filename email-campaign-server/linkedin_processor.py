@@ -23,15 +23,11 @@ class LinkedinProcessor:
         return bool(re.match(linkedin_pattern, self.linkedin))
 
     # TODO: Step 2: Extract information from linkedin profile using crawlers
-    def extract_all_skills(self):
-        question = f"Extract skill keywords only from the following job description, keep skill keywords in full term and not include year of experiences, answer in dash bulletpoint:\n{self.linkedin}"
-        content = self.call_openai(question)
-        return content
     
     # Step 3: Generate personalized email campaign
 
-    def generate_email_campaign(self, product):
-        question = f"Please generate email campaign for product {product}"
+    def generate_email_campaign(self, product, customer):
+        question = f"Please generate personalized email campaign for {customer} to promote product {product}"
         content = self.call_openai(question)
         return content
 
@@ -39,10 +35,13 @@ class LinkedinProcessor:
         if not self.is_valid_linkedin():
             return "Invalid linkedin"
 
-        # Put dummy products here
-        product1 = self.generate_email_campaign("ThinkPad P14s Gen 5 AMD (14″) Mobile Workstation")
-        product2 = self.generate_email_campaign("ThinkPad X1 Carbon Gen 11 Intel (14”) - Black")
-        product3 = self.generate_email_campaign("Legion Pro 7i Gen 9 Intel (16″) with RTX™ 4090")
+        # Dummy customer data
+        customer = "Tuyi Chen is an experienced ETL Developer with a demonstrated history of working in the information technology and services industry. She has skills in Oracle, Teradata, Snowflake, Microsoft Azure, Amazon Redshift, Linux/Unix commands, shell scripts, Python, Java 8, SQL Query Optimization, Data Analysis, and Machine Learning. She likes playing League of Legends. She can speak English and Mandarin."
+        
+        # Dummy product data
+        product1 = self.generate_email_campaign("ThinkPad P14s Gen 5 AMD (14″) Mobile Workstation", customer)
+        product2 = self.generate_email_campaign("ThinkPad X1 Carbon Gen 11 Intel (14”) - Black", customer)
+        product3 = self.generate_email_campaign("Legion Pro 7i Gen 9 Intel (16″) with RTX™ 4090", customer)
 
         result = {
             "product1": product1,

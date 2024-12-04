@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const Portal = () => {
     const [linkedin, setLinkedin] = useState('');
+    const [product, setProduct] = useState('');
     const [product1, setProduct1] = useState('');
     const [product2, setProduct2] = useState('');
     const [product3, setProduct3] = useState('');
@@ -34,13 +35,20 @@ const Portal = () => {
   
     return (
       <div className="App">
-        <h2>Linkedin Processor</h2>
+        <h2>Social Media Processor</h2>
         <form onSubmit={handleSubmit}>
           <label>Linkedin:</label><br></br>
           <input
             type="text"
             value={linkedin}
             onChange={(e) => setLinkedin(e.target.value)}
+            style={{ width: '800px', padding: '3px', fontSize: '16px' }} 
+          /><br></br><br></br>
+          <label>Product:</label><br></br>
+          <input
+            type="text"
+            value={product}
+            onChange={(e) => setProduct(e.target.value)}
             style={{ width: '800px', padding: '3px', fontSize: '16px' }} 
           /><br></br><br></br>
           <button type="submit">Generate Email Campaign</button>
