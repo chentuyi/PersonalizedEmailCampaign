@@ -151,7 +151,7 @@ li a:hover:not(.active) {
   background-color: #04aa6d;
 }
 
-/* Style for Product result */
+/* Styles for Portal & Product result */
 .result pre {
   width: 100%; /* Make the div span the full width of the screen */
   word-wrap: break-word; /* Break long words to avoid overflow */
@@ -163,3 +163,12 @@ li a:hover:not(.active) {
   margin-top: 10px;
 }
 
+/* Styles for home page */
+.full-screen-image {
+  height: 100%;
+  width: 100%;
+  background-image: url('assets/AI-home.png'); /* Image path inside the 'assets' folder */
+  background-size: cover;  /* Make the image cover the whole screen */
+  background-position: center;  /* Center the image */
+  background-repeat: no-repeat;  /* Prevent image from repeating */
+}
