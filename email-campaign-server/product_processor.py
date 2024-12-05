@@ -46,7 +46,65 @@ class ProductProcessor:
                 "output": "good"
             },
             {
-                "input": "Orsh is a virtual product invented by alien Estra. It is the fuel of alien starship and could be translate into gasoline under certain pressure.",
+                "input": """
+Orshline: The Galactic Fuel of the Future
+
+Orshline is much more than just a fuel. It is the very essence of interstellar exploration. Discovered by the enigmatic alien species known as the Estra, Orshline is a remarkably versatile and energy-dense compound that powers starships, space stations, and entire civilizations across galaxies. This extraordinary substance is more than a simple power source— it serves as the key to unlocking the future of space travel and possibly even the secrets of the universe.
+
+The Origins of Orshline
+Orshline was first encountered by the Estra, a highly advanced and mysterious alien race from the distant Elyon System. While exploring the far reaches of the universe, the Estra discovered Orshline within the heart of a dying star. The star's cataclysmic implosion created the ideal conditions for Orshline to form—a rare combination of high-energy radiation, magnetic fields, and intense gravitational pressure.
+
+Upon recognizing the substance’s potential, the Estra realized that Orshline’s energy output was unlike any known material. It surpasses even the most advanced human-made fuels, including antimatter. Orshline produces vast amounts of energy from just a small amount of matter, making it perfect for powering starships that travel vast distances across the cosmos.
+
+Key Features of Orshline
+Interdimensional Energy Source
+Orshline is a multi-dimensional energy source, meaning it can tap into the energy of parallel dimensions to produce power. This ability makes it highly efficient, as it draws energy from not only the physical universe but also from alternate planes of existence. With this property, Estra starships can achieve speeds that far exceed conventional space travel.
+
+Pressure-Activated Transformation
+While in its natural state as a dark matter-based fluid, Orshline can undergo a transformation into a gaseous form when exposed to specific environmental pressures. In the high-pressure environments of starship engines, it changes into a high-energy gas similar to gasoline. In this form, it can be combusted in a controlled manner to produce massive amounts of energy for propulsion.
+
+Energy Density
+Orshline’s energy density is beyond measure. It is 10,000 times more efficient than Earth’s best fuels, making it possible for starships to travel nearly endlessly without refueling. Just a gram of Orshline can power an Estra vessel for months, or even years, depending on the size and needs of the ship.
+
+Adaptive Combustion
+Orshline has the unique ability to adapt to different propulsion systems. Whether a ship uses conventional combustion engines, a fusion-powered drive, or even an advanced quantum drive, Orshline’s properties can be tuned to meet the specific demands of each propulsion system.
+
+Self-Sustaining Fuel Cycle
+One of the most fascinating aspects of Orshline is its self-sustaining fuel cycle. When used as fuel, Orshline releases energy that can be harnessed to create more Orshline through a complex process known as gravitational extraction. This means that ships and space stations can generate their own fuel while traveling, ensuring they will never run out of power.
+
+Uses Beyond Space Travel
+Though Orshline is primarily known for its role in powering alien starships, its potential extends far beyond space exploration:
+
+Energy Production for Planets
+On advanced Estra planets, Orshline is used in energy plants to provide clean, infinite energy. This has helped the Estra build a utopian society where the scarcity of energy is no longer an issue. Other alien civilizations are now investigating ways to replicate this boundless energy source.
+
+Medical Applications
+Orshline’s energy output is also harnessed for cutting-edge medical technologies. The Estra have developed devices that use Orshline’s energy to manipulate gravitational fields, enabling quantum healing. This has revolutionized healthcare, allowing Estra to cure diseases that are beyond the reach of conventional medicine.
+
+Energy Weapons
+Due to Orshline’s immense energy density, it has become an essential ingredient in energy-based weapons. Starships powered by Orshline can fire devastating energy blasts, capable of destroying entire fleets with a single shot. These weapons are highly regulated, as their destructive power is feared by many, including the Estra.
+
+Terraforming
+Orshline is also used in terraforming projects. Its ability to manipulate gravitational fields enables it to accelerate the process of turning inhospitable planets into livable worlds. By carefully adjusting gravitational forces, Orshline can alter a planet’s atmosphere, temperature, and even its geological structure, making it suitable for habitation in mere years.
+
+The Orshline Crisis
+Despite Orshline’s vast benefits, its power comes with a dark side. The Estra’s dependence on Orshline has led to the rise of powerful corporations and black markets centered around the substance. Rogue factions and pirates are constantly searching for ways to steal Orshline from alien systems, sparking intergalactic conflicts. There have been several incidents where rival factions attempted to hijack Orshline shipments, escalating tensions that threaten to engulf entire star systems.
+
+To prevent Orshline from falling into the wrong hands, the Estra have established strict regulations governing its trade and use. Only select, trusted entities are authorized to access Orshline reserves, and many of the largest starships are equipped with state-of-the-art security systems to protect against theft.
+
+The Future of Orshline
+As humanity makes its first contact with the Estra and other alien races, the discovery of Orshline could have a profound impact on human history. Will Orshline unlock the vast possibilities of space exploration for humanity, or will it lead to catastrophic consequences in the hands of those who seek to exploit its power?
+
+In Conclusion:
+Orshline represents the pinnacle of alien innovation, offering unlimited potential for space travel, energy production, and technological progress. However, with great power comes great responsibility. As civilizations across the galaxy begin to discover Orshline’s potential, it could become the most valuable and dangerous commodity in existence.
+
+Additional Ideas to Enhance Orshline’s Story:
+Special Effects: Orshline may emit a pulsating glow that shifts in color depending on its state, pressure, or energy charge. The glow could indicate whether it’s in a fluid, gaseous, or charged state, making it a visually captivating substance.
+
+Mystery Element: There could be a deeper mystery about Orshline’s origin—perhaps it was not formed naturally, but rather engineered by an ancient alien civilization that disappeared long ago. This could lead to a quest to discover the truth behind its creation and its purpose.
+
+Artifacts and Relics: The Estra might have left behind Orshline-powered artifacts, some of which could contain ancient artificial intelligence or advanced knowledge from the Estra’s distant past. These relics could play a pivotal role in understanding Orshline’s true potential.
+                        """,
                 "output": "good"
             }
         ]
